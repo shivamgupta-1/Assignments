@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans  xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   <bean id="question1"  class="springCoreQ2.Question" >
+   <property name="questionId" value="1"></property>
+    <property name="question" value=" What is AOP?"></property>
+    <property name="answer1">
+    <list>
+  <value>Aspect Oriented Programming (AOP) compliments OOPs in the sense that it also provides modularity. But the key unit of modularity is aspect than class.</value>
+  <value>AOP breaks the program logic into distinct parts (called concerns). It is used to increase modularity by cross-cutting concerns.</value>
+  <value>A cross-cutting concern is a concern that can affect the whole application and should be centralized in one location in code as possible, such as transaction management, authentication, logging, security etc.</value>
+    </list>
+    </property>
+    <property name="answer2">
+    <set>
+    <value>Aspect Oriented Programming (AOP) compliments OOPs in the sense that it also provides modularity. But the key unit of modularity is aspect than class.</value>
+    <value>AOP breaks the program logic into distinct parts (called concerns). It is used to increase modularity by cross-cutting concerns.
+    </value>
+    <value>A cross-cutting concern is a concern that can affect the whole application and should be centralized in one location in code as possible, such as transaction management, authentication, logging, security etc.</value>
+    </set>
+    </property>
+    <property name="answer3">
+    <map>
+    <entry key="1" value="Aspect Oriented Programming (AOP) compliments OOPs in the sense that it also provides modularity. But the key unit of modularity is aspect than class."/>
+   <entry key="2" value="AOP breaks the program logic into distinct parts (called concerns). It is used to increase modularity by cross-cutting concerns."/>
+   <entry key="3" value="A cross-cutting concern is a concern that can affect the whole application and should be centralized in one location in code as possible, such as transaction management, authentication, logging, security etc." />
+   
+    </map>
+    </property>
+   </bean>     
+           
+           </beans>

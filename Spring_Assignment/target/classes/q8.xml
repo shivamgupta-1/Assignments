@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans >
+	        
+	       <bean id="student" class="springCore.Q8.Student" init-method="afterPropertiesSet" destroy-method="destroy">
+	       <property name="name" value="shivam"></property>
+	       <property name="age" value="22"></property>
+	       </bean>
+	       
+	       <bean id="student2" class="springCore.Q8.Student" >
+	       <property name="name" value="anuj"></property>
+	       <property name="age" value="25"></property>
+	       </bean>
+
+			<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"></bean>
+	
+</beans>

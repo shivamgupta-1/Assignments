@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	    xmlns:context="http://www.springframework.org/schema/context"
+	    xsi:schemaLocation="http://www.springframework.org/schema/beans
+	        http://www.springframework.org/schema/beans/spring-beans.xsd
+	        http://www.springframework.org/schema/context
+	        http://www.springframework.org/schema/context/spring-context.xsd">
+		
+	
+	   
+		<bean id="student" class="springCore.Q5.Student">
+	    <property name="name" value="shivam" />
+		
+		<property name="age" value="22" />
+		</bean>
+		
+		<bean id="schoolId" class="springCore.Q5.School">
+			<property name="name" value="BVMS" />
+			<property name="location" value="Varanasi" />
+		</bean>
+		 <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+		
+				<context:component-scan base-package="com.spring.master.emxample1"/>
+		
+		
+		
+		
+	
+	</beans>
