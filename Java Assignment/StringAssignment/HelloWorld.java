@@ -1,5 +1,9 @@
 package StringAssignment;
 
+/*
+ * 1) Write an application to determine the length of the String str = “Hello World”. (Hint: Use
+String method)
+ */
 public class HelloWorld {
 
 	public static void main(String[] args) {

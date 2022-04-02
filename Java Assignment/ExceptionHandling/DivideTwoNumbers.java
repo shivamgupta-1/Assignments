@@ -1,5 +1,10 @@
 package ExceptionHandling;
 
+/*
+ * 1) Write an application that accepts two numbers, divides the first number with the second
+number and display the result. Hint: You need to handle ArithmeticException which is
+thrown when there is an attempt to divide a number by zero. 
+ */
 import java.util.Scanner;
 
 public class DivideTwoNumbers {

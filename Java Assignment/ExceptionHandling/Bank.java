@@ -1,5 +1,15 @@
 package ExceptionHandling;
 
+/*
+ * 3) Write an application to perform withdraw functionality on a SavingAccount object. Point to
+note:
+a. Raise InsufficientBalanceException if you are trying to withdraw more than balance
+or when you balance is zero. E.g. if you balance is 2000 and if you are trying to
+withdraw 2100 or if you balance is 0 and you are trying to withdraw positive value.
+b. Raise IllegalBankTransactionException if you are trying to withdraw a negative value
+from your balance. E.g. if you try to withdraw a negative value savingAcc.withdraw(-
+1000); 
+ */
 import java.util.Scanner;
 
 public class Bank {

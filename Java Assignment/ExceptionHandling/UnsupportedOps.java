@@ -1,5 +1,10 @@
 package ExceptionHandling;
 
+/*
+ * 2) Carrying forward with the above problem, handle ArithmeticException by raising
+UnsupportedOperationException as a solution. 
+
+ */
 import java.util.Scanner;
 
 public class UnsupportedOps {
